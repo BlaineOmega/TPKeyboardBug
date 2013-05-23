@@ -19,7 +19,7 @@
 		BC635671174DD46900543700 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC63566F174DD46900543700 /* MainStoryboard.storyboard */; };
 		BC635674174DD46900543700 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC635673174DD46900543700 /* MasterViewController.m */; };
 		BC635677174DD46900543700 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC635676174DD46900543700 /* DetailViewController.m */; };
-		BC63567F174DD4B400543700 /* TPKeyboardAvoidingScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = BC63567E174DD4B400543700 /* TPKeyboardAvoidingScrollView.m */; };
+		BC635682174DE07B00543700 /* TPKeyboardAvoidingScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = BC635681174DE07B00543700 /* TPKeyboardAvoidingScrollView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,8 +41,8 @@
 		BC635673174DD46900543700 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
 		BC635675174DD46900543700 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
 		BC635676174DD46900543700 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
-		BC63567D174DD4B400543700 /* TPKeyboardAvoidingScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TPKeyboardAvoidingScrollView.h; path = "../../../../Downloads/TPKeyboardAvoiding-master/TPKeyboardAvoidingScrollView.h"; sourceTree = "<group>"; };
-		BC63567E174DD4B400543700 /* TPKeyboardAvoidingScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TPKeyboardAvoidingScrollView.m; path = "../../../../Downloads/TPKeyboardAvoiding-master/TPKeyboardAvoidingScrollView.m"; sourceTree = "<group>"; };
+		BC635680174DE07B00543700 /* TPKeyboardAvoidingScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPKeyboardAvoidingScrollView.h; sourceTree = "<group>"; };
+		BC635681174DE07B00543700 /* TPKeyboardAvoidingScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPKeyboardAvoidingScrollView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,8 +89,8 @@
 		BC63565D174DD46900543700 /* TPKeyboardBug */ = {
 			isa = PBXGroup;
 			children = (
-				BC63567D174DD4B400543700 /* TPKeyboardAvoidingScrollView.h */,
-				BC63567E174DD4B400543700 /* TPKeyboardAvoidingScrollView.m */,
+				BC635680174DE07B00543700 /* TPKeyboardAvoidingScrollView.h */,
+				BC635681174DE07B00543700 /* TPKeyboardAvoidingScrollView.m */,
 				BC635666174DD46900543700 /* AppDelegate.h */,
 				BC635667174DD46900543700 /* AppDelegate.m */,
 				BC63566F174DD46900543700 /* MainStoryboard.storyboard */,
@@ -187,7 +187,7 @@
 				BC635668174DD46900543700 /* AppDelegate.m in Sources */,
 				BC635674174DD46900543700 /* MasterViewController.m in Sources */,
 				BC635677174DD46900543700 /* DetailViewController.m in Sources */,
-				BC63567F174DD4B400543700 /* TPKeyboardAvoidingScrollView.m in Sources */,
+				BC635682174DE07B00543700 /* TPKeyboardAvoidingScrollView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -310,6 +310,7 @@
 				BC63567C174DD46900543700 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

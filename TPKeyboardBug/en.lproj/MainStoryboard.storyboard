@@ -84,7 +84,6 @@
         <!--View Controller-->
         <scene sceneID="nBE-kF-DXp">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="BZw-vS-TZf" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="ndH-cS-sqO" sceneMemberID="viewController">
                     <scrollView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="RDo-ed-Jft" customClass="TPKeyboardAvoidingScrollView">
                         <rect key="frame" x="0.0" y="64" width="320" height="504"/>
@@ -109,6 +108,7 @@
                     </scrollView>
                     <navigationItem key="navigationItem" id="0OG-OM-lbg"/>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="BZw-vS-TZf" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="914" y="-571"/>
         </scene>
